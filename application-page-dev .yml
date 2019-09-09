@@ -9,5 +9,5 @@ spring:
     username: root
     password: 123456
 mybatis-plus:
-  mapper-locations: classpath:cn/lqycloud/hrm/mapper/*Mapper.xml
+  mapper-locations: classpath: cn/lqycloud/hrm/mapper/*Mapper.xml
   type-aliases-package: cn.lqycloud.hrm.domain,cn.lqycloud.hrm.query
